@@ -1,7 +1,7 @@
 <?php
-$esta_logado = false;
+$esta_logado = true;
+$menssagem = $esta_logado;
 
-echo ($esta_logado) ? "Bem Vindo ao sistema" : "For favor faça o login!";
-
+echo ($menssagem) ? "Bem Vindo ao Sistema" : "For favor faça o login!";
 
 ?>
